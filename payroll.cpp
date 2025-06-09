@@ -48,7 +48,7 @@ int main()
     while (inputFile >> socialSecurityNumber >> firstName >> middleInitial >> lastName >> annualSalary >> numberOfIndividualsCovered >> retirementParticipationFlag)
     {
         // Format the full name as: "LastName, FirstName M."
-        fullNameFormatted = lastName + ", " + firstName + " " + middleInitial + ".";
+        fullNameFormatted = lastName + ", " + firstName + " " + middleInitial;
 
         // Calculate federal tax based on salary brackets
         if (annualSalary < 5000)
