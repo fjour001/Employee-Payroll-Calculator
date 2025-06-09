@@ -1,4 +1,3 @@
-
 //*
 // Employee Payroll Calculator
 // This program calculates monthly payroll after deductions
